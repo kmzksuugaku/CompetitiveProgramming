@@ -1,0 +1,69 @@
+import java.util.*;
+ 
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s = sc.next();
+		String han = "Yes";
+		for(int i = 0; i < s.length(); i++){
+			String h = s.substring(i,i + 1);
+			if(i % 2 == 0){
+				if(h.equals("A")) han = "No";
+				if(h.equals("B")) han = "No";
+				if(h.equals("C")) han = "No";
+				if(h.equals("D")) han = "No";
+				if(h.equals("E")) han = "No";
+				if(h.equals("F")) han = "No";
+				if(h.equals("G")) han = "No";
+				if(h.equals("H")) han = "No";
+				if(h.equals("I")) han = "No";
+				if(h.equals("J")) han = "No";
+				if(h.equals("K")) han = "No";
+				if(h.equals("L")) han = "No";
+				if(h.equals("M")) han = "No";
+				if(h.equals("N")) han = "No";
+				if(h.equals("O")) han = "No";
+				if(h.equals("P")) han = "No";
+				if(h.equals("Q")) han = "No";
+				if(h.equals("R")) han = "No";
+				if(h.equals("S")) han = "No";
+				if(h.equals("T")) han = "No";
+				if(h.equals("U")) han = "No";
+				if(h.equals("V")) han = "No";
+				if(h.equals("W")) han = "No";
+				if(h.equals("X")) han = "No";
+				if(h.equals("Y")) han = "No";
+				if(h.equals("Z")) han = "No";
+			}
+			if(i % 2 == 1){
+				if(h.equals("a")) han = "No";
+				if(h.equals("b")) han = "No";
+				if(h.equals("c")) han = "No";
+				if(h.equals("d")) han = "No";
+				if(h.equals("e")) han = "No";
+				if(h.equals("f")) han = "No";
+				if(h.equals("g")) han = "No";
+				if(h.equals("h")) han = "No";
+				if(h.equals("i")) han = "No";
+				if(h.equals("j")) han = "No";
+				if(h.equals("k")) han = "No";
+				if(h.equals("l")) han = "No";
+				if(h.equals("m")) han = "No";
+				if(h.equals("n")) han = "No";
+				if(h.equals("o")) han = "No";
+				if(h.equals("p")) han = "No";
+				if(h.equals("q")) han = "No";
+				if(h.equals("r")) han = "No";
+				if(h.equals("s")) han = "No";
+				if(h.equals("t")) han = "No";
+				if(h.equals("y")) han = "No";
+				if(h.equals("v")) han = "No";
+				if(h.equals("w")) han = "No";
+				if(h.equals("x")) han = "No";
+				if(h.equals("y")) han = "No";
+				if(h.equals("z")) han = "No";
+			}
+		}
+		System.out.println(han);
+	}
+}
