@@ -60,7 +60,7 @@ public class Main {
 	Collections.reverse();
 	Collections.sort(list,Comparator.comparing(NN::getA).thenComparing(NN::getB));
 	Math.pow(26,j)*map.get(ss[i].substring(ss[i].length() - j - 1,ss[i].length() - j));
-	ƒ[ƒVƒƒƒ‹ƒtƒƒCƒg«
+	ãƒ¯ãƒ¼ã‚·ãƒ£ãƒ«ãƒ•ãƒ­ã‚¤ãƒˆâ†“
 	for(int i = 1; i <= n; i++){
     		for(int j = 1; j <= n; j++){
     			for(int k = 1; k <= n; k++){
@@ -69,7 +69,7 @@ public class Main {
     		}
     	}
 	*/
-	//ˆÈ‰º©ìŠÖ”,ƒNƒ‰ƒX
+	//ä»¥ä¸‹è‡ªä½œé–¢æ•°,ã‚¯ãƒ©ã‚¹
 	public static int[] For0(int n){
 		Scanner sc = new Scanner(System.in);
 		int a[] = new int[n];
@@ -98,7 +98,7 @@ public class Main {
 		return a;
 	}
 	
-	//26^n ³Šm«‚ğ‹‚ß‚é
+	//26^n æ­£ç¢ºæ€§ã‚’æ±‚ã‚ã‚‹æ™‚
 	public static long Power26(long n){
 		long num = 1;
 		for(int i = 0; i < n; i++){
